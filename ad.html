@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is a bug advertisement</h1>
+    <a href="https://www.schendelpest.com/pest-library">
+        <button style="background-color: #654602; color: black;">
+            Click for bugs in your area</button>
+    </a>
+    <br>
+    <button  onclick="doSomething()" style="background-color: #654602; color: black;">Other bugs</button>
+    
+    <script>
+        function doSomething(){
+            document.getElementbyId("demo").innerHTML = "Bugs are everywhere";
+        }
+    </script>
+    <p id="demo" >hidden</p>
+</body>
+</html>
